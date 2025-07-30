@@ -1,0 +1,22 @@
+# 忽略所有内容
+*
+
+# 保留.gitignore本身
+!.gitignore
+
+# 包含目录及其所有内容（递归）
+!datasets/
+!docs/
+!plots/
+!tests/
+!utilities/
+
+# 包含这些目录中的所有文件和子目录
+!datasets/**
+!docs/**
+!plots/**
+!tests/**
+!utilities/**
+
+# 忽略所有.asv文件
+*.asv
