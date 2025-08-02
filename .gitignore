@@ -1,8 +1,10 @@
 # 忽略所有内容
 *
 
-# 保留.gitignore本身
+# 保留特定文件
 !.gitignore
+!README.md
+!LICENSE
 
 # 包含目录及其所有内容（递归）
 !datasets/
@@ -18,5 +20,10 @@
 !tests/**
 !utilities/**
 
-# 忽略所有.asv文件
+# 忽略特定文件
+test_output/
+*.png
+*.pdf
+*.tiff
+*svg
 *.asv
